@@ -13,7 +13,7 @@ namespace Controle_Vendas.Models
         public string? endereco { get; set; }
         [Display(Name = "Numero da residência ")]
         public int numero { get; set; }
-        [Display(Name = "Complemento")]
+        [Display(Name = "Complemento do endereço")]
         public string? comp { get; set; }
         public int cep { get; set; } 
     }
